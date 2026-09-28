@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-personal-project-01"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://sapersonalproject01.dfs.core.windows.net/"
+		},
+		"LS_AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "0927-040244-3gaend7f"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "caresync-server-joy.database.windows.net"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "sql-db-caresync"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "Joykrishna"
+		},
+		"LS_PostgreSQL_CareSync_properties_typeProperties_server": {
+			"value": "ep-noisy-bread-b33ohnyf-pooler.c-4.ap-southeast-1.aws.neon.tech"
+		},
+		"LS_PostgreSQL_CareSync_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"LS_PostgreSQL_CareSync_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		},
+		"LS_kv_caresync_properties_typeProperties_baseUrl": {
+			"value": "https://kv-caresync.vault.azure.net/"
+		}
+	}
+}
