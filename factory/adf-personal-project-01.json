@@ -2,7 +2,7 @@
 	"name": "adf-personal-project-01",
 	"properties": {
 		"globalParameters": {
-			"email_receipent": {
+			"email_receipents": {
 				"type": "string",
 				"value": "jksamal98@gmail.com"
 			},
